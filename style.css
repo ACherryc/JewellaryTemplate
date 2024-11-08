@@ -1,8 +1,13 @@
-.body{
+*{
+    box-sizing: border-box;
+
+}
+body{
     font-family: "Roboto";
-    margin: 0;
+    margin: 0%;
     padding: 0px;
     font-size: 14px;
+    flex-wrap: wrap;
 }
 .top-header{
     
@@ -11,7 +16,7 @@
 }
 .max-width{
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 0 auto ;
 }
 .top-header p{
     line-height: 24px;
@@ -55,26 +60,45 @@
     font-family:"sans-serif";
     font-style: italic;
 }
-.icon i{
+.icon{
     display: flex;
-    
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    padding:4px;
     margin: 5px;
+    padding: 3px;
     
 }
 .all_departments{
     position: relative;
+    
 }
 
 .sub_menu{
     display: none;
+    position: relative;
+    list-style-type: none;
+    margin: 0px;
+    
+
+    
     
 }
 .all_departments:hover .sub_menu{
     display: block;
     position: absolute;
+    
+}
+.sub_menu li a{
+    text-decoration: none;
+    color: #333333;
+    padding: 3px;
+    font-size: 12px;
+    
+
+}
+.sub_menu li a:hover{
+   color: goldenrod;
 }
 .symbol{
     border-radius: 50%;
@@ -146,8 +170,7 @@
 }
 .website-footer{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: space-around;
     background-color: burlywood;
     background-size: cover;
     height: 30vh;
@@ -185,6 +208,7 @@
     
 }
 
+
 .content-text{
     font-size: 12px;
     font-family: "Roboto";
@@ -193,6 +217,12 @@
     color: gray;
     margin-right: 6px;
 }
+.contact{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
 .footer-link{
     display:flex;
     flex-direction: row;
@@ -200,6 +230,7 @@
     align-items: center;
     margin-top: 5px;
     margin-bottom: 5px;
+    text-align: center;
 }
 .footer-link i:hover{
     color: goldenrod;
@@ -227,7 +258,7 @@
     max-height: 100px;
 }
 .popular_access.extra{
-   justify-content: space-around;
+   justify-content: space-between;
 }
 .btn-container{
     display: flex;
@@ -248,4 +279,45 @@
     border-style: none;
     padding: 5px;
     margin: 8px;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    
+    list-style-type: none;
+    
+}
+.footer-nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    font-size: 15px;
+    
+
+}
+.footer-nav li a:hover{
+   color: goldenrod;
+}
+.border{
+    border: 1px groove lightgrey;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom:5px;
+    
+}
+.footer-h{
+    text-align: left;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: bold;
+    
+}
+.box{
+    width: 60px;
+    height: 10px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
 }
