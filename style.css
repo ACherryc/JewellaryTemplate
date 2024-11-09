@@ -181,7 +181,7 @@ body{
 .content{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 18px;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
@@ -189,7 +189,7 @@ body{
     margin-bottom: 30px;
     background-image: url('https://i.ibb.co/Dtz13fB/slider-2.png');
     background-size: cover;
-    height: 50vh;
+    height: 60vh;
     
     
 }
@@ -238,11 +238,10 @@ body{
     
 }
 .footer-para{
-    font-size: 12px;
+    font-size: 14px;
     font-family: "Roboto";
     font-weight: normal;
-    margin: 0px;
-    padding: 0px;
+    
     color: white;
     
 
@@ -285,7 +284,7 @@ body{
     align-items: center;
     margin-top: 5px;
     margin-bottom: 5px;
-    text-align: center;
+    padding:0px 10px 0px 10px;
 }
 .footer-link i:hover{
     color: goldenrod;
@@ -348,8 +347,9 @@ body{
     flex-direction: column;
     
     margin:0;
-    padding: 0px;
+    padding: 10px;
     list-style-type: none;
+    padding-right:55px;
     
 }
 .footer-nav li{
@@ -400,13 +400,12 @@ body{
 
 .footer-h{
     text-align: left;
-    font-size: 15px;
-    font-family: "Roboto";
+    font-size: 16px;
     font-weight: bold;
     
 }
 .social_icons i{
-    padding: 0px 8px;
+    padding: 0px 10px;
 }
 .border{
     border: 1px groove lightgrey;
