@@ -141,15 +141,25 @@ body{
     background-color:rgb(241,217,200);
     background-size: cover;
     line-height:18px ;
-    padding: 18px;
+    padding: 2px;
     
     
+}
+.header-bg{
+    background-color: white;
+}
+.all-dep-bg{
+    background-color:rgb(241,217,200);
+
 }
 .nav-link{
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+
 }
+
 .nav-link li a{
      text-decoration: none;
      color: #333333;
@@ -171,26 +181,26 @@ body{
     
     padding: 6px;
 }
-.content h1,
-.content p,
-.content button {
-    margin: 0;
-    
-}
+
 
 .content{
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: -20px;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-left: 20px;
     margin-bottom: 30px;
     background-image: url('https://i.ibb.co/Dtz13fB/slider-2.png');
-    background-size: cover;
-    height: 60vh;
-    
+    background-size:cover;
+    width: 100%;
+    line-height: 120px; 
+    padding: 15px;
+}
+content h1,
+.content p,
+.content button {
+    margin: 0;
     
 }
 .img-heading{
@@ -223,12 +233,20 @@ body{
 }
 .website-footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: burlywood;
     background-size: cover;
     height: 30vh;
     margin-top:0px ;
+    padding: 0px;
     
+}
+.footer-main-bg{
+    background-color: burlywood;
+
+}
+.myaccount-bg{
+    background-color: white;
 }
 .footer-heading{
     font-size: 15px;
@@ -241,7 +259,6 @@ body{
     font-size: 14px;
     font-family: "Roboto";
     font-weight: normal;
-    
     color: white;
     
 
@@ -282,13 +299,20 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    text-align: start;
     margin-top: 5px;
     margin-bottom: 5px;
-    padding:0px 10px 0px 10px;
+    margin-left: 0px;
+    padding: 0px;
+    
 }
+
 .footer-link i:hover{
     color: goldenrod;
     
+}
+.footer-link li{
+    margin: 0;
 }
 .diamond{
     display: flex;
@@ -345,13 +369,14 @@ body{
 .footer-nav{
     display: flex;
     flex-direction: column;
-    
     margin:0;
     padding: 10px;
     list-style-type: none;
-    padding-right:55px;
+    padding-right: 55px;
+
     
 }
+
 .footer-nav li{
     font-size: 12px;
     font-weight: normal;
@@ -405,7 +430,8 @@ body{
     
 }
 .social_icons i{
-    padding: 0px 10px;
+    padding: 0px 12px;
+    margin: 0;
 }
 .border{
     border: 1px groove lightgrey;
